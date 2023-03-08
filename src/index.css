@@ -1,4 +1,70 @@
 
+.con {
+  background-color: #6c7b8e;
+  
+}
+
+.contain{
+  padding:1rem;
+  color:#ffffff;
+}
+
+.calling {
+  
+ 
+  float: right;
+}
+
+.me-auto {
+  font-weight: bold;
+ margin-right: 2rem;
+ 
+  
+}
+
+.carousel {
+  background-color: rgba(0, 0, 0, .5); 
+   
+}
+
+.head{
+  color: #E81C2E;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+
+  
+}
+
+.slidelabel{
+  color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
+.imgtext{
+  margin: auto;
+  color: #ffffff;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.caption {
+  display: block;
+    font-size: 2em;
+    margin-block-start: 0.8rem;
+    margin-block-end: 0.9rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 
 
 @media screen and (max-width: 1040px) {
@@ -37,6 +103,49 @@
   
  
  
+/*******************************/
+/********* Service CSS *********/
+/*******************************/
+.service {
+  position: relative;
+  width: 100%;
+  padding: 45px 0 0 0;
+}
+
+.service .service-item {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 45px;
+}
+
+.service .service-item i {
+  color: #202C45;
+  font-size: 75px;
+  line-height: 75px;
+  margin-bottom: 20px;
+}
+
+.service .service-item [class^="flaticon-"]::before {
+  margin: 0;
+  font-size: 60px;
+  line-height: 60px;
+  background-image: linear-gradient(#E81C2E, #202C45);
+  transition: .5s;
+}
+
+.service .service-item h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.service .service-item p {
+  margin: 0;
+}
+
  
  
  
@@ -231,7 +340,7 @@ code {
   margin-bottom: 45px;
   padding: 35px 30px 10px 30px;
   border-radius: 5px;
-  background: #202C45;
+  background: #6c7b8e;
   
 }
 
@@ -386,203 +495,6 @@ a:focus {
 
 
 
-.carousel {
-  position: relative;
-  width: 100%;
-  min-height: 400px;
-  background: #ffffff;
-  margin-bottom: 45px;
-}
-
-.carousel .container-fluid {
-  padding: 0;
-}
-
-.carousel .carousel-item {
-  position: relative;
-  width: 100%;
-  min-height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.carousel .carousel-img {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  min-height: 400px;
-  text-align: right;
-  overflow: hidden;
-}
-
-.carousel .carousel-img::after {
-  position: absolute;
-  content: "";
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: rgba(0, 0, 0, .5);
-  z-index: 1;
-}
-
-.carousel .carousel-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.carousel .carousel-text {
-  position: absolute;
-  max-width: 992px;
-  padding: 0 15px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  z-index: 2;
-}
-
-.carousel .carousel-text h3 {
-  color: #E81C2E;
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  margin-bottom: 0px;
-}
-
-.carousel .carousel-text h1 {
-  color: #ffffff;
-  font-size: 90px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  text-transform: capitalize;
-}
-
-.carousel .carousel-text p {
-  max-width: 500px;
-  color: #ffffff;
-  font-size: 18px;
-  margin-bottom: 40px;
-}
-
-.carousel .btn.btn-custom {
-  padding: 20px 45px 22px 45px;
-  color: #ffffff;
-}
-
-.btn.btn-custom:hover {
-  color: #E81C2E;
-}
-
-.carousel .owl-nav {
-  position: absolute;
-  width: 100%;
-  height: 50px;
-  top: calc(50% - 25px);
-  left: 0;
-  display: flex;
-  justify-content: space-between;
-  z-index: 9;
-}
-
-.carousel .owl-nav .owl-prev,
-.carousel .owl-nav .owl-next {
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #ffffff;
-  border-radius: 50px;
-  background: rgba(256, 256, 256, .2);
-  font-size: 22px;
-  transition: .5s;
-}
-
-.carousel .owl-nav .owl-prev {
-  margin-left: 30px;
-}
-
-.carousel .owl-nav .owl-next {
-  margin-right: 30px;
-}
-
-.carousel .owl-nav .owl-prev:hover,
-.carousel .owl-nav .owl-next:hover {
-  color: #ffffff;
-  background: #E81C2E;
-}
-
-.carousel .animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-}
-
-@media (max-width: 991.98px) {
-  .carousel .carousel-text h3 {
-      margin-bottom: 5px;
-  }
-  
-  .carousel .carousel-text h1 {
-      font-size: 60px;
-  }
-  
-  .carousel .carousel-text p {
-      font-size: 16px;
-  }
-  
-  .carousel .carousel-text .btn {
-      padding: 12px 30px;
-      font-size: 15px;
-      letter-spacing: 0;
-  }
-}
-
-@media (max-width: 767.98px) {
-  .carousel .carousel-text h3 {
-      font-size: 18px;
-      letter-spacing: 2px;
-      margin-bottom: 15px;
-  }
-  
-  .carousel .carousel-text h1 {
-      font-size: 45px;
-  }
-  
-  .carousel .carousel-text .btn {
-      padding: 10px 25px;
-      font-size: 15px;
-      letter-spacing: 0;
-  }
-}
-
-@media (max-width: 575.98px) {
-  .carousel .carousel-text h3 {
-      font-size: 14px;
-      letter-spacing: 1px;
-      margin-bottom: 10px;
-  }
-  
-  .carousel .carousel-text h1 {
-      font-size: 30px;
-      margin-bottom: 15px;
-  }
-  
-  .carousel .carousel-text p {
-      margin-bottom: 25px;
-  }
-  
-  .carousel .carousel-text .btn {
-      padding: 8px 20px;
-      font-size: 14px;
-      letter-spacing: 0;
-  }
-}
 
 
 .about {
@@ -784,12 +696,130 @@ a:focus {
 
 
 
+/*******************************/
+/********* Pricing CSS *********/
+/*******************************/
+.price {
+  position: relative;
+  width: 100%;
+  padding: 45px 0 15px 0;
+}
+
+.price .row {
+  padding: 0 15px;
+}
+
+.price .col-md-4 {
+  padding: 0;
+}
+
+.price .price-item {
+  position: relative;
+  margin-bottom: 30px;
+  background: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.price .featured-item {
+  box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+  z-index: 1;
+}
+
+.price .price-header {
+  padding: 45px 0 30px 0;
+}
+
+.price .price-header h3 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.price .price-header h2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+.price .price-header h2 span {
+  font-size: 25px;
+  line-height: 55px;
+}
+
+.price .price-item.featured-item h2,
+.price .price-item.featured-item h3 {
+  color: #E81C2E;
+}
+
+.price .price-body {
+  padding: 0 0 20px 0;
+}
+
+.price .price-body ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.price .price-body ul li {
+  padding: 0 0 15px 0;
+}
+
+.price .price-body ul li i {
+  margin-right: 10px;
+}
+
+.price .price-body ul li i.fa-check-circle {
+  color: #39B972;
+}
+
+.price .price-body ul li i.fa-times-circle {
+  color: #cccccc;
+}
+
+.price .price-item .price-footer {
+  padding-bottom: 45px;
+}
+
+.price .price-item .price-footer .btn.btn-custom {
+  color: #E81C2E;
+  background: #202C45;
+  box-shadow: inset 0 0 0 0 #E81C2E;
+}
+
+.price .price-item .price-footer .btn.btn-custom:hover {
+  color: #ffffff;
+  background: #E81C2E;
+  box-shadow: inset 200px 0 0 0 #E81C2E;
+}
+
+.price .price-item.featured-item .price-footer .btn.btn-custom {
+  color: #ffffff;
+  background: #E81C2E;
+  box-shadow: inset 0 0 0 0 #202C45;
+}
+
+.price .price-item.featured-item .price-footer .btn.btn-custom:hover {
+  color: #E81C2E;
+  background: #202C45;
+  box-shadow: inset 200px 0 0 0 #202C45;
+}
+
+
+
+
+
 
 .footer {
   position: relative;
   margin-top: 45px;
   padding-top: 90px;
-  background: #202C45;
+  background: #6c7b8e;
 }
 
 .footer .footer-contact,

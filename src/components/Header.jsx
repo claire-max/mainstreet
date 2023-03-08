@@ -11,39 +11,45 @@ const Header = () => {
     <Carousel fade>
     <Carousel.Item>
       <img
-        className="d-block w-100"
+        className="carousel d-block w-100"
         src={header1}
         alt="First slide"
       />
-      <Carousel.Caption>
-        <h3>First slide label</h3>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <Carousel.Caption  className="caption">
+        <header className="head">HUOhvfuh;uovfhvojfu'</header>
+        <h3 className="slidelabel">First slide label</h3>
+        <p className="imgtext">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
       <img
-        className="d-block w-100"
+        className="carousel d-block w-100"
         src={header2}
         alt="Second slide"
       />
 
-      <Carousel.Caption>
-        <h3>Second slide label</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <Carousel.Caption  className="caption">
+      <header className="head">HUOhvfuh;uovfhvojfu'</header>
+        <h3 className="slidelabel">Second slide label</h3>
+        <p className="imgtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
       <img
-        className="d-block w-100"
+        className="carousel d-block w-100"
         src={header3}
         alt="Third slide"
       />
 
-      <Carousel.Caption>
-        <h3>Third slide label</h3>
-        <p>
+      <Carousel.Caption className="caption">
+      <header className="head">HUOhvfuh;uovfhvojfu'</header>
+        <h3 className="slidelabel">Third slide label</h3>
+        <p className="imgtext">
           Praesent commodo cursus magna, vel scelerisque nisl consectetur.
         </p>
+        
+
+
       </Carousel.Caption>
     </Carousel.Item>
   </Carousel>
