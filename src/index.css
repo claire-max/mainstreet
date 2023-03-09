@@ -17,15 +17,37 @@
 
 .me-auto {
   font-weight: bold;
- margin-right: 2rem;
- 
-  
+  font-size: large;
+   flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+} 
+
+
+
+
+.navitem{
+  padding-right: 9rem;
+  justify-content: space-between;
+
 }
 
-.carousel {
-  background-color: rgba(0, 0, 0, .5); 
-   
+.call{
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
 }
+
+
+.priceheading{
+  color: #E81C2E;
+  font-weight: 800;
+  letter-spacing: 4px;
+  font-size: 60px;
+  text-transform: uppercase;
+  text-shadow: -1px 1px 10px rgba(0, 0, 0, 0.75);
+}
+
 
 .head{
   color: #E81C2E;
@@ -34,15 +56,17 @@
   letter-spacing: 4px;
   text-transform: uppercase;
   margin-bottom: 0px;
+  text-shadow: -1px 1px 10px rgba(0, 0, 0, 0.75);
 
   
 }
 
 .slidelabel{
   color: #ffffff;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 700;
     text-align: center;
+    justify-content: center;
     text-transform: capitalize;
     
 }
@@ -58,16 +82,14 @@
 }
 
 .caption {
-  display: block;
-    font-size: 2em;
-    margin-block-start: 0.8rem;
-    margin-block-end: 0.9rem;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+  height: 70%;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 
-@media screen and (max-width: 1040px) {
+/* @media screen and (max-width: 1040px) {
   .nav-bar{
       flex-direction: column;
       justify-content: center;
@@ -80,8 +102,8 @@
       left: -100%;
       z-index: -3;
       transition: 0.2s;
-  }
-  .nav-bar.active {
+  } 
+   .nav-bar.active {
       left:0;
       padding-right: 3rem;
   }
@@ -94,61 +116,94 @@
       font-size: 2rem;
   }
 }
+
 .nav-bar a {
   font-size: 1.2rem;
   font-weight: 500;
   
-}
- 
+} 
+  */
   
  
- 
+
+
+
 /*******************************/
-/********* Service CSS *********/
+/******* Section Header ********/
 /*******************************/
-.service {
+.section-header {
   position: relative;
   width: 100%;
-  padding: 45px 0 0 0;
+  max-width: 700px;
+  margin: 0 auto 45px auto;
 }
 
-.service .service-item {
-  position: relative;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 45px;
-}
-
-.service .service-item i {
-  color: #202C45;
-  font-size: 75px;
-  line-height: 75px;
-  margin-bottom: 20px;
-}
-
-.service .service-item [class^="flaticon-"]::before {
-  margin: 0;
-  font-size: 60px;
-  line-height: 60px;
-  background-image: linear-gradient(#E81C2E, #202C45);
-  transition: .5s;
-}
-
-.service .service-item h3 {
+.section-header p {
+  display: inline-block;
   margin-bottom: 10px;
-  font-size: 20px;
+  padding-bottom: 5px;
+  position: relative;
+  font-size: 16px;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #E81C2E;
 }
 
-.service .service-item p {
+.section-header p::after {
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 2px;
+  left: 25%;
+  bottom: 0;
+  background: #E81C2E;
+}
+
+.section-header.text-left p::after {
+  left: 0;
+}
+
+.section-header.text-right p::after {
+  left: 50%;
+}
+
+.section-header h2 {
   margin: 0;
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: capitalize;
 }
+
+@media (max-width: 991.98px) {
+  .section-header h2 {
+      font-size: 45px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .section-header h2 {
+      font-size: 40px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .section-header h2 {
+      font-size: 35px;
+  }
+}
+
+
+.carwash {
+  text-align: center;
+  margin-left:3.5rem;
+  
+}
+
 
  
  
- 
+
  
  
  
@@ -171,7 +226,7 @@ code {
 
 .top-bar {
   position: relative;
-  height: 75px;
+  height: 85px;
   display: flex;
   align-items: center;
   background: #ffffff;
@@ -182,7 +237,7 @@ code {
   overflow: hidden;
 }
 
-.top-bar .logo h1 {
+ .top-bar .logo h1 {
   margin: -4px 0 0 0;
   color: #E81C2E;
   font-size: 50px;
@@ -190,15 +245,15 @@ code {
   font-weight: 800;
   letter-spacing: 1px;
   font-style: italic;
-}
+} 
 
 .top-bar .logo h1 span {
   color: #202C45;
-}
+} 
 
 .top-bar .logo img {
   max-width: 100%;
-  max-height: 60px;
+  max-height: 85px;
 }
 
 .top-bar .top-bar-item {
@@ -370,7 +425,7 @@ code {
 
 .contact .contact-info-icon i {
   margin: 0;
-  color: #202C45;
+  color: #1c2a43;
   font-size: 16px;
 }
 
@@ -402,14 +457,14 @@ code {
 .contact .contact-form input {
   padding: 15px;
   border-radius: 5px;
-  border: 1px solid #202C45;
+  border: 1px solid #1c2a43;
 }
 
 .contact .contact-form textarea {
   height: 125px;
   padding: 8px 15px;
   border-radius: 5px;
-  border: 1px solid #202C45;
+  border: 1px solid #1c2a43;
 }
 
 .contact .help-block ul {
@@ -438,11 +493,11 @@ h3,
 h4,
 h5, 
 h6 {
-  color: #202C45;
+  color: #1c2a43;
 }
 
 a {
-  color: #202C45;
+  color: #1c2a43;
   transition: .3s;
 }
 
@@ -463,7 +518,7 @@ a:focus {
   background: #E81C2E;
   border: none;
   border-radius: 60px;
-  box-shadow: inset 0 0 0 0 #202C45;
+  box-shadow: inset 0 0 0 0 #1c2a43;
   transition: ease-out 0.5s;
   -webkit-transition: ease-out 0.5s;
   -moz-transition: ease-out 0.5s;
@@ -471,8 +526,8 @@ a:focus {
 
 .btn.btn-custom:hover {
   color: #E81C2E;
-  background: #202C45;
-  box-shadow: inset 200px 0 0 0 #202C45;
+  background: #1c2a43;
+  box-shadow: inset 200px 0 0 0 #1c2a43;
 }
 
 .btn:focus,
@@ -543,16 +598,16 @@ a:focus {
   background: #E81C2E;
   border: none;
   border-radius: 60px;
-  box-shadow: inset 0 0 0 0 #202C45;
+  box-shadow: inset 0 0 0 0 #1c2a43;
   transition: ease-out 0.5s;
-  -webkit-transition: ease-out 0.5s;
-  -moz-transition: ease-out 0.5s;
+  /* -webkit-transition: ease-out 0.5s;
+  -moz-transition: ease-out 0.5s; */
 }
 
 .btn.btn-custom:hover {
   color: #E81C2E;
-  background: #202C45;
-  box-shadow: inset 200px 0 0 0 #202C45;
+  background: #1c2a43;
+  box-shadow: inset 200px 0 0 0 #1c2a43;
 }
 
 
@@ -822,22 +877,37 @@ a:focus {
   background: #6c7b8e;
 }
 
+.footerlogo {
+  margin-top: 3rem;
+  width:60%;
+  height:60%;
+  display: flex;
+  margin-left:10rem;
+  justify-content: center;
+  padding-right: 2rem;
+}
+
+/* .logocontain {
+   padding-left: 50rem;
+} */
+
 .footer .footer-contact,
-.footer .footer-link,
-.footer .footer-newsletter {
+.footer .footer-link
+ {
   position: relative;
   margin-bottom: 45px;
   color: #ffffff;
 }
 
 .footer .footer-contact h2,
-.footer .footer-link h2,
-.footer .footer-newsletter h2 {
+.footer .footer-link h2
+ {
   margin-bottom: 30px;
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 2px;
   color: #E81C2E;
+  
 }
 
 .footer .footer-link a {
@@ -862,67 +932,6 @@ a:focus {
 
 .footer .footer-contact p i {
   width: 25px;
-}
-
-.footer .footer-social {
-  position: relative;
-  margin-top: 20px;
-  display: flex;
-}
-
-.footer .footer-social a {
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #202C45;
-  background: #ffffff;
-  border-radius: 40px;
-  margin-right: 5px;
-  transition: .5s;
-}
-
-.footer .footer-social a:last-child {
-  margin: 0;
-}
-
-.footer .footer-social a:hover {
-  color: #ffffff;
-  background: #E81C2E;
-}
-
-.footer .footer-newsletter form {
-  position: relative;
-  width: 100%;
-}
-
-.footer .footer-newsletter input {
-  margin-bottom: 15px;
-  height: 45px;
-  background: transparent;
-  border: 1px solid #ffffff;
-  border-radius: 5px;
-}
-
-.footer .footer-newsletter label {
-  margin-top: 5px;
-  color: #777777;
-  font-size: 14px;
-  letter-spacing: 1px;
-}
-
-.footer .footer-newsletter .btn.btn-custom {
-  width: 100%;
-  color: #202C45;
-  background: #ffffff;
-  box-shadow: inset 0 0 0 0 #E81C2E;
-}
-
-.footer .footer-newsletter .btn:hover {
-  color: #ffffff;
-  background: #E81C2E;
-  box-shadow: inset 200px 0 0 0 #E81C2E;
 }
 
 .footer .copyright {

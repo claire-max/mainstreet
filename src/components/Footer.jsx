@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from "../assets/logo1.png"
 import  "../App.css"
 
 const Footer = () => {
@@ -24,19 +25,17 @@ const Footer = () => {
                             <a href="/">Our Service</a>
                             <a href="/">Pricing</a>
                         </div>
-                    </div>
-                    {/* <div className="col-lg-3 col-md-6">
-                        <div className="footer-link">
-                            <h2>Useful Links</h2>
-                            <a href="">Terms of use</a>
-                            <a href="">Privacy policy</a>
-                            <a href="">Cookies</a>
-                            <a href="">Help</a>
-                            <a href="">FQAs</a>
-                        </div>
-                    </div> */}
-                    <div className="col-lg-3 col-md-6">
-                    {/* <div className="form">
+                     </div>
+                   
+                    <div className="col-lg-3 col-md-6"> 
+                    <div className="logocontain"> 
+                       
+                       <a href="/">
+                               <img className='footerlogo' src={logo} alt="Logo"/> 
+                           </a>
+                      
+                   </div>
+                     {/* <div className="form">
        <form>
         <label>Name</label>
         <input type="text"></input>
@@ -46,11 +45,12 @@ const Footer = () => {
         <textarea rows="6" placeholder="Write your message here"/>
          <button className="btn">Submit</button> 
         
-        </form> 
-    </div> */}
+        </form>  */}
+    </div> 
                     
-                    </div>
-                </div>
+                     </div>
+                
+               
             </div>
             <div className="container copyright">
                 <p>&copy; <a href="#">Main Street Car Wash</a>, All Right Reserved. Designed By <a href="">Claire Freeman</a></p>

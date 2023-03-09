@@ -46,10 +46,14 @@
   position: relative;
   width: 100%;
   min-height: 400px;
-  background: #ffffff;
   margin-bottom: 45px;
-}
+  -webkit-filter: brightness(10%);
+  filter:brightness(70%);
+  
+  
 
+}
+/* 
 .carousel .container-fluid {
   padding: 0;
 }
@@ -239,4 +243,4 @@
       letter-spacing: 0;
   }
 }
-
+ */

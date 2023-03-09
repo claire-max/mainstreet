@@ -9,15 +9,15 @@ import header3 from "../assets/third.png"
 const Header = () => {
   return (
     <Carousel fade>
-    <Carousel.Item>
+    <Carousel.Item className="firstslide">
       <img
-        className="carousel d-block w-100"
+        className="carousel d-flex h-100"
         src={header1}
         alt="First slide"
       />
       <Carousel.Caption  className="caption">
-        <header className="head">HUOhvfuh;uovfhvojfu'</header>
-        <h3 className="slidelabel">First slide label</h3>
+        <header className="head">fdvgggbgfbvgfv</header>
+        <h3 className="slidelabel">ygvluvuytlf</h3>
         <p className="imgtext">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
       </Carousel.Caption>
     </Carousel.Item>

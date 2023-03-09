@@ -15,7 +15,7 @@ const Menu = () => {
                     <div className="col-lg-4 col-md-12">
                         <div className="logo">
                             <a href="/">
-                                <img src={logo} alt="Logo" height={100} width={100}/> 
+                                <img className='logo' src={logo} alt="Logo" /> 
                             </a>
                         </div>
                     </div>
@@ -63,27 +63,18 @@ const Menu = () => {
       <Navbar className='con' sticky="top">
         <Container className="contain" sticky="top" >
           <Nav className="me-auto">
-          <a href="/" className="nav-item1 nav-link text-white">About</a>
-          <a href="/services" className="nav-item2 nav-link text-white">Service</a>
-          <a href="/prices" className="nav-item3 nav-link text-white">Price</a>
-          <a href="/contact" className="nav-item nav-link text-white">Contact</a>
-            {/* <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link> */}
+          <a href="/" className=" navitem nav-link text-white me-5">About</a>
+          <a href="/services" className="navitem nav-link text-white me-5">Services</a>
+          <a href="/prices" className="navitem nav-link text-white me-5">Prices</a>
+          <a href="/contact" className="navitem nav-link text-white me-5">Contact</a>
           </Nav>
           <div className="call">
-         {/* <a className="btn btn-custom" href="#">Call Now</a> */}
-         {/* <a href="tel:916-934-9148" className="btn btn-custom" alt="Call 916-934-9148">Call Now</a> */}
          <a href="tel:916-934-9148" className="btn btn-custom" > Call Now </a>
                     
                 </div>
         </Container>
       </Navbar>
      
-      {/* <a href="" className="nav-item nav-link">About</a>
-                        <a href="" className="nav-item nav-link">Service</a>
-                        <a href="" className="nav-item nav-link">Price</a>
-                        <a href="/contact" className="nav-item nav-link">Contact</a> */}
  </div>
   )
 }
