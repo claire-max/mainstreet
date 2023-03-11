@@ -21,9 +21,9 @@ const Footer = () => {
                         <div className="footer-link">
                             <h2>Popular Links</h2>
                             <a href="/">About Us</a>
-                            <a href="/">Contact Us</a>
-                            <a href="/">Our Service</a>
-                            <a href="/">Pricing</a>
+                            <a href="/contact">Contact Us</a>
+                            <a href="/services">Our Service</a>
+                            <a href="/prices">Pricing</a>
                         </div>
                      </div>
                    

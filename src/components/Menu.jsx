@@ -6,6 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from "../assets/logo1.png"
 
+
 const Menu = () => {
   return (
     <div>
@@ -60,20 +61,25 @@ const Menu = () => {
             </div>
         </div>
 
-      <Navbar className='con' sticky="top">
-        <Container className="contain" sticky="top" >
+        <Navbar collapseOnSelect expand="lg" className='con' style={{color:"#fff"}} >
+      <Container className="contain" >
+        <Navbar.Brand href="#home" style={{color:"#fff"}} ></Navbar.Brand>
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{
+        backgroundColor: 'white',}} className="togglenav"/>
+        <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-          <a href="/" className=" navitem nav-link text-white me-5">About</a>
-          <a href="/services" className="navitem nav-link text-white me-5">Services</a>
-          <a href="/prices" className="navitem nav-link text-white me-5">Prices</a>
-          <a href="/contact" className="navitem nav-link text-white me-5">Contact</a>
+            <Nav.Link href="/services" className="navitem nav-link text-white me-5">Services</Nav.Link>
+            <Nav.Link href="/prices" className="navitem nav-link text-white me-5">Prices</Nav.Link>
+            <Nav.Link href="/contact" className="navitem nav-link text-white me-5">Contact</Nav.Link>
           </Nav>
-          <div className="call">
-         <a href="tel:916-934-9148" className="btn btn-custom" > Call Now </a>
-                    
-                </div>
-        </Container>
-      </Navbar>
+          <Nav>
+            <Nav.Link href="tel:916-934-9148" className="btn btn-custom p-3">Call Now</Nav.Link>
+            
+          </Nav>
+
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
      
  </div>
   )
