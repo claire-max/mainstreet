@@ -12,15 +12,10 @@ const Header = () => {
       backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}
     >
       <div className='mask'>
-        <div className='d-flex justify-content-center align-items-center h-100'>
+        <div className='d-flex justify-content-center align-items-center'>
           <div className='text-white'>
               <br/>
-              <br/>
-
               <h3 className="slidelabel">Wash Your Way</h3>
-              
-    
-
               {/* <header className="head">Self-Serve Car Wash</header> */}
         {/* <h3 className="slidelabel">Wash Your Way</h3>
         <br/> */}

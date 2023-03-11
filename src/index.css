@@ -36,7 +36,14 @@
 } 
 
 .carwashcard{
- margin: 7rem;
+margin-bottom: 4rem;
+margin:4rem;
+ 
+}
+
+.cards{
+  align-items: center;
+  justify-content: center;
 }
 
 .navitem{
@@ -785,7 +792,10 @@ a:focus {
   position: relative;
   width: 100%;
   padding: 45px 0 15px 0;
+  background-color: lightslategray;
+  
 }
+
 
 .price .row {
   padding: 0 15px;
@@ -798,9 +808,12 @@ a:focus {
 .price .price-item {
   position: relative;
   margin-bottom: 30px;
-  background: #ffffff;
   border-radius: 5px;
   text-align: center;
+}
+
+.premium{
+  background: #202C45;
 }
 
 .price .featured-item {

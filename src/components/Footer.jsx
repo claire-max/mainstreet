@@ -4,6 +4,7 @@ import  "../App.css"
 import {HiLocationMarker} from "react-icons/hi"
 import {AiFillPhone} from 'react-icons/ai'
 import {BsFillEnvelopeFill} from 'react-icons/bs'
+import  "../index.css"
 
 const Footer = () => {
   return (

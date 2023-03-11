@@ -124,7 +124,7 @@ const Services = () => {
                 <div className="row align-items-center">
                 <div className="col-lg-6">
                         <div className="about-img">
-                        <img src={vending} className='imgcontain' alt="vending" style={{height:500}}/>
+                        <img src={vending} className='imgcontain' alt="vending" style={{height:400}}/>
                         </div>
                     </div>
                     <div className="col-lg-6">

@@ -7,6 +7,8 @@ import pricewash from "../assets/pricewashing.png"
 const Contacthome = () => {
   return (
     <div>
+        <br/>
+        <br/>
          <header style={{ paddingLeft: 0 }}>
       <div
         className='p-5 text-center bg-image d-flex justify-content-center align-items-center '

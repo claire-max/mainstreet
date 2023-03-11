@@ -36,10 +36,10 @@ const Jumbotron = () => {
           <br/>
           <br/>
           <br/>
+          <br/>
 
 
-
-    <Row className="g-4 ">
+    <Row className="g-4 cards">
           <Card className="text-light carwashcard me-3" style={{ backgroundColor:'#202C45',
         width:200, height:200}}>
             <br/>
