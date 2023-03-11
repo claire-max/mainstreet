@@ -2,18 +2,12 @@ import React from 'react'
 import Footer from '../components/Footer';
 import Menu from '../components/Menu';
 import "../index.css";
-// import carwash from "../assets/car-wash.png"
 import exterior from "../assets/exterior.png"
 import vacuum from "../assets/vacuum.png"
-// import car from "../assets/car.png"
 import vending from "../assets/vending.png"
 import biggbay from "../assets/biggbay.png"
 import pricewash from "../assets/pricewashing.png"
 import selfservebay from "../assets/self-servebay.png"
-
-
-
-
 
 
 const Services = () => {
@@ -45,7 +39,6 @@ const Services = () => {
             <div className="container">
                 <div className="section-header text-center">
                     <br/>
-                    {/* <p>What We Do?</p> */}
                     <h2>Premium Washing Services</h2>
                 </div>
 
@@ -144,45 +137,7 @@ const Services = () => {
                 </div>
             </div>
         </div>
-                {/* <div className="row ">
-                    <div className="col-lg-3 col-md-6">
-                        <div className="service-item ">
-                            <img src={carwash} className="carwash" alt="carwash" width={80} height={80} />
-                            <h3>Exterior Washing</h3>
-                            <p>Pamper your vehicle with a fast exterior wash.</p>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-md-6">
-                        <div className="service-item">
-                            <img src={car} className="carwash" alt="carwash" width={90} height={90}/>
-                            <h3>Self Serve Bay Washer</h3>
-                            <p>We have 2 self-serve bays.</p>
-                        </div>
-                    </div>
-                    <div className="col-md-3 col-md-6">
-                        <div className="service-item">
-                            <img src={bigbay} className="carwash" alt="bigbay" width={80} height={80}/>
-                            <h3>Truck/RV/Auto Wash Bay</h3>
-                            <p>For those large vehicles we have our truck/Rv/Auto wash bays.</p>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-md-6">
-                        <div className="service-item">
-                            <img src={vacuum} className="carwash" alt="vacuum" width={80} height={80} />
-                            <h3>Self Serve Vacuums</h3>
-                            <p>Make your car feel brand new with fresh carpets and seats.</p>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-md-6">
-                        <div className="service-item">
-                            <img src={vending} className="carwash" alt="vending" width={80} height={80} />
-                            <h3>Vending Detail Center</h3>
-                            <p>We are stocked with all of your car washing needs.</p>
-                        </div>
-                    </div>
-                  
-                  
-                </div>  */}
+               
             </div>
 
            

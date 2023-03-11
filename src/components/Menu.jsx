@@ -1,10 +1,11 @@
-
 import '../index.css'
 import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from "../assets/logo1.png"
+import {AiOutlineClockCircle, AiOutlinePhone} from 'react-icons/ai'
+import {BiEnvelope} from 'react-icons/bi'
 
 
 const Menu = () => {
@@ -25,7 +26,7 @@ const Menu = () => {
                             <div className="col-4">
                                 <div className="top-bar-item">
                                     <div className="top-bar-icon">
-                                        <i className="far fa-clock"></i>
+                                    <AiOutlineClockCircle size={25} style={{color: 'white'}}/>
                                     </div>
                                     <div className="top-bar-text">
                                         <h3>Opening Hours</h3>
@@ -36,7 +37,7 @@ const Menu = () => {
                             <div className="col-4">
                                 <div className="top-bar-item">
                                     <div className="top-bar-icon">
-                                        <i className="fa fa-phone-alt"></i>
+                                        <AiOutlinePhone size={25} style={{color: 'white'}}/>
                                     </div>
                                     <div className="top-bar-text">
                                         <h3>Call Us</h3>
@@ -47,7 +48,7 @@ const Menu = () => {
                             <div className="col-4">
                                 <div className="top-bar-item">
                                     <div className="top-bar-icon">
-                                        <i className="far fa-envelope"></i>
+                                        <BiEnvelope  size={25} style={{color: 'white'}}/>
                                     </div>
                                     <div className="top-bar-text">
                                         <h3>Email Us</h3>

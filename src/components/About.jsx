@@ -9,32 +9,33 @@ const About = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-6">
                         <div className="about-img">
-                            <img src="https://images.pexels.com/photos/372810/pexels-photo-372810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Image"/>
+                            <img src="https://images.pexels.com/photos/372810/pexels-photo-372810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="carwashphoto"/>
                         </div>
+                        
                     </div>
+                   
+                    <br/>
                     <div className="col-lg-6">
+                    
                         <div className="section-header text-left">
+                        
                             <p>About Us</p>
-                            <h2>car washing</h2>
+                          
                         </div>
                         <div className="about-content">
                             <p>
-                                Lorem ipsum dolor sit amet elit. In vitae turpis. Donec in hendre dui, vel blandit massa. Ut vestibu suscipi cursus. Cras quis porta nulla, ut placerat risus. Aliquam nec magna eget velit luctus dictum
+                                We offer self-serve for your vehicle or large vehicles  as well as automatic wash
+                                bioobjjgbifgjkonjnjiniufhbuihbiubhibhiu
                             </p>
-                            <ul>
-                                <li><i className="far fa-check-circle"></i></li>
-                                <li><i className="far fa-check-circle"></i>Vacuum cleaning</li>
-                                <li><i className="far fa-check-circle"></i>Interior wet cleaning</li>
-                                <li><i className="far fa-check-circle"></i>Window wiping</li>
-                            </ul>
-                            <a className="btn btn-custom" href="">Learn More</a>
+                           
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    
+        <br/>
     </div>
+  
   )
 }
 

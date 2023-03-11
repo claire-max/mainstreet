@@ -1,8 +1,9 @@
 import React from 'react'
 import '../index.css'
-// import Navbar from '../components/Navbar';
 import Menu from '../components/Menu';
 import Footer from '../components/Footer';
+import {AiOutlineClockCircle, AiOutlinePhone} from 'react-icons/ai'
+import {BiEnvelope} from 'react-icons/bi'
 
 const Contact = () => {
   return (
@@ -20,16 +21,16 @@ const Contact = () => {
                             <h2>Quick Contact Info</h2>
                             <div className="contact-info-item">
                                 <div className="contact-info-icon">
-                                    <i className="far fa-clock"></i>
+                                    <AiOutlineClockCircle size={25}/>
                                 </div>
                                 <div className="contact-info-text">
-                                    <h3>Opening Hour</h3>
+                                    <h3>Opening Hours</h3>
                                     <p>Mon - Sun, 24 hours </p>
                                 </div>
                             </div>
                             <div className="contact-info-item">
                                 <div className="contact-info-icon">
-                                    <i className="fa fa-phone-alt"></i>
+                                  <AiOutlinePhone size={25}/>
                                 </div>
                                 <div className="contact-info-text">
                                     <h3>Call Us</h3>
@@ -38,7 +39,7 @@ const Contact = () => {
                             </div>
                             <div className="contact-info-item">
                                 <div className="contact-info-icon">
-                                    <i className="far fa-envelope"></i>
+                                <BiEnvelope size={25}/> 
                                 </div>
                                 <div className="contact-info-text">
                                     <h3>Email Us</h3>
@@ -52,19 +53,19 @@ const Contact = () => {
                             <div id="success"></div>
                             <form name="sentMessage" id="contactForm" novalidate="novalidate">
                                 <div className="control-group">
-                                    <input type="text" className="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                    <input type="text" className="form-control" id="inputID" placeholder="Name" required="required" data-validation-required-message="Please enter your name" />
                                     <p className="help-block text-danger"></p>
                                 </div>
                                 <div className="control-group">
-                                    <input type="email" className="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                    <input type="email" className="form-control" id="inputID" placeholder="Email" required="required" data-validation-required-message="Please enter your email" />
                                     <p className="help-block text-danger"></p>
                                 </div>
                                 <div className="control-group">
-                                    <input type="text" className="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                    <input type="text" className="form-control" id="inputID" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
                                     <p className="help-block text-danger"></p>
                                 </div>
                                 <div className="control-group">
-                                    <textarea className="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                    <textarea className="form-control" id="inputID" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
                                     <p className="help-block text-danger"></p>
                                 </div>
                                 <div>

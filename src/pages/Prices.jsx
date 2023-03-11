@@ -1,8 +1,6 @@
 import React from 'react'
-// import { Button } from 'react-bootstrap';
 import Footer from '../components/Footer';
 import Menu from '../components/Menu';
-// import first from '../assets/first.png';
 import pricewash from "../assets/pricewashing.png"
 import "../index.css";
 
@@ -23,7 +21,6 @@ const Prices = () => {
                 <br/>
                 <br/>
               <h1 className=' priceheading mb-3'>Choose your Wash</h1>
-              {/* <h4 className='mb-3'>Subheading</h4> */}
              
             </div>
           </div>
@@ -35,7 +32,6 @@ const Prices = () => {
         <div class="price">
             <div class="container">
                 <div class="section-header text-center">
-                    {/* <p>Choose Your Wash</p> */}
                     <h2> Touch-Free Automatic Car Wash</h2>
                 </div>
                 <div class="row">
@@ -54,9 +50,7 @@ const Prices = () => {
                                     <li><i class="far fa-check-circle"></i>Power Dry</li>
                                 </ul>
                             </div>
-                            {/* <div class="price-footer">
-                                <a class="btn btn-custom" href="">Book Now</a>
-                            </div> */}
+                           
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -78,9 +72,7 @@ const Prices = () => {
                                     <li><i class="far fa-check-circle"></i>Power Dry</li>
                                 </ul>
                             </div>
-                            {/* <div class="price-footer">
-                                <a class="btn btn-custom" href="">Book Now</a>
-                            </div> */}
+                           
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -103,26 +95,12 @@ const Prices = () => {
                                     <li><i class="far fa-check-circle"></i>Body Armor Protection</li>
                                 </ul>
                             </div>
-                            {/* <div class="price-footer">
-                                <a class="btn btn-custom" href="">Book Now</a>
-                            </div> */}
+                          
                         </div>
                     </div>
                 </div>
             </div>
 
-            {/* <div>
-            <Jumbotron>
-  <h1>Hello, world!</h1>
-  <p>
-    This is a simple hero unit, a simple jumbotron-style component for calling
-    extra attention to featured content or information.
-  </p>
-  <p>
-    <Button bsStyle="primary">Learn more</Button>
-  </p>
-</Jumbotron>;
-            </div> */}
         </div>
 
 
