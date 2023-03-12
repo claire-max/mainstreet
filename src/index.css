@@ -792,7 +792,7 @@ a:focus {
   position: relative;
   width: 100%;
   padding: 45px 0 15px 0;
-  background-color: lightslategray;
+  background-color: white;
   
 }
 
@@ -813,6 +813,14 @@ a:focus {
 }
 
 .premium{
+  background: #202C45;
+}
+.premium1 {
+  opacity: .85;
+  background: #202C45;
+}
+.premium2 {
+  opacity: .93;
   background: #202C45;
 }
 

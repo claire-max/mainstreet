@@ -1,5 +1,6 @@
 import React from 'react'
 import  "../index.css"
+import exterior from "../assets/exterior.png"
 
 const About = () => {
   return (
@@ -9,7 +10,7 @@ const About = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-6">
                         <div className="about-img">
-                            <img src="https://images.pexels.com/photos/372810/pexels-photo-372810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="carwashphoto"/>
+                            <img src={exterior} height={600} alt="carwashphoto"/>
                         </div>
                         
                     </div>
@@ -24,8 +25,12 @@ const About = () => {
                         </div>
                         <div className="about-content">
                             <p>
-                                We offer self-serve for your vehicle or large vehicles  as well as automatic wash
-                                bioobjjgbifgjkonjnjiniufhbuihbiubhibhiu
+        We are an eco-friendly, solar-powered car wash offering three spacious self-serve bays with a dedicated bay to
+         accommodate large Recreational Vehicles. We also offer a powerful, dirt-busting, touch-free automatic wash  
+         for your convenience. Our detail vending machine carries many of the items to make your vehicle clean on the inside and out and
+         our vacuums will finish the job!
+          
+                                
                             </p>
                            
                         </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Menu from '../components/Menu';
 import pricewash from "../assets/pricewashing.png"
-import {AiOutlineCheckCircle, AiFillCheckCircle} from "react-icons/ai"
+import {AiFillCheckCircle} from "react-icons/ai"
 import "../index.css";
 import logo from "../assets/logo1.png"
 import  "../App.css"
@@ -41,14 +41,14 @@ const Prices = () => {
                 </div>
                 <div className="row">
                     <div className="col-md-4">
-                        <div className="price-item">
+                        <div className="price-item premium1 featured-item">
                             <div className="price-header">
                                 <h3>Deluxe</h3>
                                 <h2><span>$</span><strong>7</strong></h2>
                             </div>
-                            <div class="price-body">
+                            <div class="price-body text-white ">
                                 <ul>
-                                    <li><AiFillCheckCircle size={20} color={'#E81C2E'} /> Double Pass Presoak</li>
+                                    <li><AiFillCheckCircle size={20} color={'#E81C2E'}/> Double Pass Presoak</li>
                                     <li><AiFillCheckCircle size={20} color={'#E81C2E'}/> High Pressure Wash</li>
                                     <li><AiFillCheckCircle size={20} color={'#E81C2E'}/> Clear Coat Protectant</li>
                                     <li><AiFillCheckCircle size={20} color={'#E81C2E'}/> Spot Free Rinse</li>
@@ -59,34 +59,35 @@ const Prices = () => {
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <div className="price-item premium featured-item">
+                    <div className="price-item premium2 featured-item">
                             <div className="price-header">
                                 <h3>Premium</h3>
                                 <h2><span>$</span><strong>9</strong></h2>
                             </div>
                             <div className="price-body text-white">
                                 <ul>
-                                    <li><AiOutlineCheckCircle size={20} color={'#E81C2E'} /> Wheel Cleaner</li>
-                                    <li><AiOutlineCheckCircle size={20} color={'#E81C2E'}/> Rocker Panel Blaster</li>
-                                    <li><AiOutlineCheckCircle size={20} color={'#E81C2E'}/> Double Pass</li>
-                                    <li><AiOutlineCheckCircle size={20} color={'#E81C2E'}/> Heated Presoak</li>
-                                    <li><AiOutlineCheckCircle size={20} color={'#E81C2E'}/> High Pressure Wash</li>
-                                    <li><AiOutlineCheckCircle size={20} color={'#E81C2E'}/> Triple Foam Polish</li>
-                                    <li><AiOutlineCheckCircle size={20} color={'#E81C2E'}/> Clear Coat Protectant</li>
-                                    <li><AiOutlineCheckCircle size={20} color={'#E81C2E'}/> Spot Free Rinse</li>
-                                    <li><AiOutlineCheckCircle size={20} color={'#E81C2E'}/> Power Dry</li>
+                                    <li><AiFillCheckCircle size={20} color={'#E81C2E'} /> Wheel Cleaner</li>
+                                    <li><AiFillCheckCircle size={20} color={'#E81C2E'}/> Rocker Panel Blaster</li>
+                                    <li><AiFillCheckCircle size={20} color={'#E81C2E'}/> Double Pass</li>
+                                    <li><AiFillCheckCircle size={20} color={'#E81C2E'}/> Heated Presoak</li>
+                                    <li><AiFillCheckCircle size={20} color={'#E81C2E'}/> High Pressure Wash</li>
+                                    <li><AiFillCheckCircle size={20} color={'#E81C2E'}/> Triple Foam Polish</li>
+                                    <li><AiFillCheckCircle size={20} color={'#E81C2E'}/> Clear Coat Protectant</li>
+                                    <li><AiFillCheckCircle size={20} color={'#E81C2E'}/> Spot Free Rinse</li>
+                                    <li><AiFillCheckCircle size={20} color={'#E81C2E'}/> Power Dry</li>
                                 </ul>
                             </div>
                            
                         </div>
                     </div>
+
                     <div className="col-md-4">
-                        <div className="price-item">
+                    <div className="price-item premium featured-item ">
                             <div className="price-header">
                                 <h3>Ultimate</h3>
                                 <h2><span>$</span><strong>11</strong></h2>
                             </div>
-                            <div className="price-body">
+                            <div className="price-body text-white">
                                 <ul>
                                     <li><AiFillCheckCircle size={20} color={'#E81C2E'} /> Wheel Cleaner</li>
                                     <li><AiFillCheckCircle size={20} color={'#E81C2E'}/> Rocker Panel Blaster</li>
@@ -102,12 +103,21 @@ const Prices = () => {
                             </div>
                           
                         </div>
+                       
                     </div>
                 </div>
             </div>
 
+            <div className="container">
+                <div className="section-header text-center">
+                    <h2>Self-Serve Bays</h2>
+                </div>
+                </div>
+
         
         <div>
+
+           
 
 <div className="footer" style={{backgroundColor:'#202C45'}}>
             <div className="container">

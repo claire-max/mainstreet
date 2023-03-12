@@ -39,7 +39,7 @@ const Services = () => {
             <div className="container">
                 <div className="section-header text-center">
                     <br/>
-                    <h2>Premium Washing Services</h2>
+                    <h2>Our Services</h2>
                 </div>
 
          <div>
@@ -52,8 +52,8 @@ const Services = () => {
                     </div>
                     <div className="col-lg-6">
                         <div className="section-header text-left">
-                            <p>Exterior Wash</p>
-                            <h2>Pamper your vehicle with a fast exterior wash.</h2>
+                            <p>Automatic Wash</p>
+                            <h2>Pamper your vehicle with our fast, touch-free automatic wash</h2>
                         </div>
                     </div>
                 </div>
@@ -66,8 +66,9 @@ const Services = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-6">
                         <div className="section-header text-left">
-                            <p>Self-Serve Bay Washer</p>
-                            <h2>We have 2 self-serve bays.</h2>
+                            <p>Self-Serve Bays</p>
+                            <h2>Spacious bays to get those tough-to-reach spots
+                                </h2>
                         </div>
                     </div>
                     <div className="col-lg-6">
@@ -92,7 +93,7 @@ const Services = () => {
                     <div className="col-lg-6">
                         <div className="section-header text-left">
                             <p>Truck/RV/Auto Wash Bay</p>
-                            <h2>For those large vehicles we have our truck/Rv/Auto wash bays.</h2>
+                            <h2>Extra large bay to accommodate extra large Recreational Vehicles </h2>
                         </div>
                     </div>
                 
@@ -106,7 +107,7 @@ const Services = () => {
                     <div className="col-lg-6">
                         <div className="section-header text-left">
                             <p>Self Serve Vacuums</p>
-                            <h2>Make your car feel brand new with fresh carpets and seats.</h2>
+                            <h2>Finish the job with our powerful Vacuums</h2>
                         </div>
                     </div>
                     <div className="col-lg-6">
@@ -130,7 +131,7 @@ const Services = () => {
                     <div className="col-lg-6">
                         <div className="section-header text-left">
                             <p>Vending Detail Center</p>
-                            <h2>We are stocked with all of your car washing needs.</h2>
+                            <h2>Stocked with your detailing needs</h2>
                         </div>
                     </div>
                 

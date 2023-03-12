@@ -29,8 +29,8 @@ const Menu = () => {
                                     <AiOutlineClockCircle size={25} style={{color: 'white'}}/>
                                     </div>
                                     <div className="top-bar-text">
-                                        <h3>Opening Hours</h3>
-                                        <p>Mon - Sun, 24 hours</p>
+                                        <h3>Hours of Operation</h3>
+                                        <p>24 hours</p>
                                     </div>
                                 </div>
                             </div>
@@ -52,7 +52,7 @@ const Menu = () => {
                                     </div>
                                     <div className="top-bar-text">
                                         <h3>Email Us</h3>
-                                        <p>info@example.com</p>
+                                        <p> wmarkfreeman@gmail.com</p>
                                     </div>
                                 </div>
                             </div>
@@ -70,11 +70,11 @@ const Menu = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/services" className="navitem nav-link text-white me-5">Services</Nav.Link>
-            <Nav.Link href="/prices" className="navitem nav-link text-white me-5">Prices</Nav.Link>
+            <Nav.Link href="/prices" className="navitem nav-link text-white me-5">Pricing</Nav.Link>
             <Nav.Link href="/contact" className="navitem nav-link text-white me-5">Contact</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="tel:916-934-9148" className="btn btn-custom p-3">Call Now</Nav.Link>
+            <Nav.Link href="tel:530-529-3002" className="btn btn-custom p-3">Call Now</Nav.Link>
             
           </Nav>
 

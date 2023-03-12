@@ -43,7 +43,7 @@ const Contacthome = () => {
                         <AiOutlineClockCircle size={25}/>
                     </div>
                     <div className="contact-info-text">
-                        <h3>Opening Hours</h3>
+                        <h3>Hours of Operation</h3>
                         <p>Mon - Sun, 24 hours </p>
                     </div>
                 </div>

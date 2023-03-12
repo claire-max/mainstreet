@@ -24,8 +24,8 @@ const Contact = () => {
                                     <AiOutlineClockCircle size={25}/>
                                 </div>
                                 <div className="contact-info-text">
-                                    <h3>Opening Hours</h3>
-                                    <p>Mon - Sun, 24 hours </p>
+                                    <h3>Hours of Operation</h3>
+                                    <p>24 hours </p>
                                 </div>
                             </div>
                             <div className="contact-info-item">
@@ -43,7 +43,7 @@ const Contact = () => {
                                 </div>
                                 <div className="contact-info-text">
                                     <h3>Email Us</h3>
-                                    <p>info@example.com</p>
+                                    <p> wmarkfreeman@gmail.com</p>
                                 </div>
                             </div>
                         </div>
