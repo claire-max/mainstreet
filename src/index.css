@@ -68,7 +68,10 @@ margin:4rem;
   background-size: cover;
 }
 
-
+.headerimg{
+  width:100%;
+  
+}
 
 .full-bleed{
   box-shadow: 0 0 0 100vmax  #6c7b8e;
@@ -88,6 +91,8 @@ margin:4rem;
 
 .imgcontain{
   border-radius: 2rem;
+  flex-wrap: wrap;
+  flex-direction: column;
   
 }
 
@@ -513,9 +518,13 @@ a:focus {
 }
 
 .about .about-img img {
-  width: 100%;
+  /* width: 100%; */
   border-radius: 2rem;
+  margin-left:2rem;
   margin-bottom: 30px;
+  width:300;
+  height:800;
+
 }
 
 .about .about-content {

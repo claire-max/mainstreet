@@ -17,8 +17,8 @@ const Services = () => {
 
         <header style={{ paddingLeft: 0 }}>
       <div
-        className='p-5 text-center bg-image d-flex justify-content-center align-items-center '
-        style={{ backgroundImage: `url(${pricewash})`, height: 400, backgroundPosition: 'center',
+        className='headerimg text-center bg-image d-flex justify-content-center align-items-center '
+        style={{ backgroundImage: `url(${pricewash})`, height: 400,
         backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}
       >
         <div className='mask'>
@@ -47,7 +47,7 @@ const Services = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-6">
                         <div className="about-img">
-                            <img src={exterior} className='imgcontain' style={{height:550}} alt="exterior"/>
+                            <img src={exterior} className='imgcontain' style={{height:300, width:300}} alt="exterior"/>
                         </div>
                     </div>
                     <div className="col-lg-6">
@@ -73,7 +73,7 @@ const Services = () => {
                     </div>
                     <div className="col-lg-6">
                         <div className="about-img">
-                        <img src={selfservebay} className='imgcontain' style={{height:500}} alt="selfservebay" />
+                        <img src={selfservebay} className='imgcontain' style={{height:300, width:300}} alt="selfservebay" />
                         </div>
                     </div>
                 </div>
@@ -87,7 +87,7 @@ const Services = () => {
                 <div className="row align-items-center">
                 <div className="col-lg-6">
                         <div className="about-img">
-                        <img src={biggbay} className='imgcontain' alt="bigbay" style={{height:500}}/>
+                        <img src={biggbay} className='imgcontain' alt="bigbay" style={{height:300, width:300}}/>
                         </div>
                     </div>
                     <div className="col-lg-6">
@@ -112,7 +112,7 @@ const Services = () => {
                     </div>
                     <div className="col-lg-6">
                         <div className="about-img">
-                        <img src={vacuum} className='imgcontain' style={{height:500}} alt="vacuum" />
+                        <img src={vacuum} className='imgcontain' style={{height:300, width:300}} alt="vacuum" />
                         </div>
                     </div>
                 </div>
@@ -125,7 +125,7 @@ const Services = () => {
                 <div className="row align-items-center">
                 <div className="col-lg-6">
                         <div className="about-img">
-                        <img src={vending} className='imgcontain' alt="vending" style={{height:400}}/>
+                        <img src={vending} className='imgcontain' alt="vending" style={{height:300, width:300}}/>
                         </div>
                     </div>
                     <div className="col-lg-6">
@@ -146,6 +146,7 @@ const Services = () => {
         
         <Footer/>
     </div>
+    
   )
 }
 

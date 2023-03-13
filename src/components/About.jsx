@@ -11,7 +11,7 @@ const About = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-6">
                         <div className="about-img">
-                            <img src={aboutphoto} height={600} alt="carwashphoto"/>
+                            <img src={aboutphoto} height={300} width={300} alt="carwashphoto"/>
                         </div>
                         
                     </div>
