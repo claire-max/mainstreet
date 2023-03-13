@@ -45,7 +45,7 @@ const Jumbotron = () => {
             <br/>
       <Card.Img src={carwash} alt="Card image" />
       <Card.ImgOverlay>
-        <Card.Title> Touch Free Automatic Wash</Card.Title>
+        <Card.Title> Touch-Free Automatic Wash</Card.Title>
       </Card.ImgOverlay>
     </Card>
 
@@ -54,7 +54,7 @@ const Jumbotron = () => {
             <br/>
       <Card.Img src={car} alt="Card image" />
       <Card.ImgOverlay>
-        <Card.Title>Self-Serve Bay Washer</Card.Title>
+        <Card.Title>Self-Serve Bays</Card.Title>
       </Card.ImgOverlay>
     </Card>
 

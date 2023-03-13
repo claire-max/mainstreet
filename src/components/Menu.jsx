@@ -26,7 +26,7 @@ const Menu = () => {
                             <div className="col-4">
                                 <div className="top-bar-item">
                                     <div className="top-bar-icon">
-                                    <AiOutlineClockCircle size={25} style={{color: 'white'}}/>
+                                    <AiOutlineClockCircle className="menu" size={25} style={{color: 'white'}}/>
                                     </div>
                                     <div className="top-bar-text">
                                         <h3>Hours of Operation</h3>
@@ -37,7 +37,7 @@ const Menu = () => {
                             <div className="col-4">
                                 <div className="top-bar-item">
                                     <div className="top-bar-icon">
-                                        <AiOutlinePhone size={25} style={{color: 'white'}}/>
+                                        <AiOutlinePhone className="menu" size={25} style={{color: 'white'}}/>
                                     </div>
                                     <div className="top-bar-text">
                                         <h3>Call Us</h3>
@@ -48,7 +48,7 @@ const Menu = () => {
                             <div className="col-4">
                                 <div className="top-bar-item">
                                     <div className="top-bar-icon">
-                                        <BiEnvelope  size={25} style={{color: 'white'}}/>
+                                        <BiEnvelope className="menu" size={25} style={{color: 'white'}}/>
                                     </div>
                                     <div className="top-bar-text">
                                         <h3>Email Us</h3>

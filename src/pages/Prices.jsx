@@ -7,10 +7,6 @@ import  "../App.css"
 import Footer from '../components/Footer';
 
 
-
-
-
-
 const Prices = () => {
   return (
     <div>
@@ -111,124 +107,61 @@ const Prices = () => {
             </div>
 
             </div>
- 
+
+            <div className="price">
             <div className="container">
-                <div className="section-header text-center">
-                    <h2>Self-Serve Bays</h2>
-
-                  
-                </div> 
-
-
-
-                <div className="location">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7">
+                <div className="section-header sectionselfserve text-center">
+                    <h2> Self-Serve Bays</h2>
+                    <div clasName="col-lg-7">
                         <div class="section-header priceheader text-left">
                             <h7>$2.50 for 4 minutes, $1.00 for 
-                                each additional 1 minute and 36 seconds
-          </h7>
+                                each additional</h7>
+                                <br/>
+                                <h7>1 minute and 36 seconds
+                                </h7>
+                    
                         </div>
                        
-                    </div>
-
-                    
-                    <div className="col-lg-5">
-                        <div className="location-form">
-                            <h3 className=''>Self-Serve Washing Options</h3>
-    <form>
-                            <div className="location">
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-11 ">
-                       
-                        <div className="row">
-                            <div className="col-md-6">
-                                <div className="location-item">
-                                <AiFillCheckCircle size={20} color={'#fff'} /> 
-                                    <div className="location-text">
-                                        <h3>Wax</h3>
-                                    </div>
-                                </div>
+                    </div> 
+                   
+                </div>
+                <div className="rowselfserve">
+                <div className="col-md-4">
+                    <div className="price-item washoptions featured-item">
+                            <div className="price-header">
+                                <h8>Self-Serve Wash Options</h8>
                             </div>
-                            <div className="col-md-6">
-                                <div className="location-item">
-                                <AiFillCheckCircle size={20} color={'#fff'} /> 
-                                    <div className="location-text">
-                                        <h3>Rinse</h3>
-                                       
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="location-item">
-                                <AiFillCheckCircle size={20} color={'#fff'} /> 
-                                    <div className="location-text">
-                                        <h3>Foam Brush</h3>
-                                       
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="location-item">
-                                <AiFillCheckCircle size={20} color={'#fff'} /> 
-                                    <div className="location-text">
-                                        <h3>Wash Soap</h3>
-                                       
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="location-item">
-                                <AiFillCheckCircle size={20} color={'#fff'} /> 
-                                    <div className="location-text">
-                                        <h3>Pre-Soak</h3>
-                                       
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="location-item">
-                                <AiFillCheckCircle size={20} color={'#fff'} /> 
-                                    <div className="location-text">
-                                        <h3>Tire Cleaner</h3>
-                                      
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="location-item">
-                                <AiFillCheckCircle size={20} color={'#fff'} /> 
-                                    <div className="location-text">
-                                        <h3>Engine Cleaner</h3>
-                                    </div>
-                                </div>
+                            <div className="price-body text-white">
+                                <ul>
+                                    <li><AiFillCheckCircle size={20} color={'#fff'} /> Wax</li>
+                                    <li><AiFillCheckCircle size={20} color={'#fff'} />  Rinse</li>
+                                    <li><AiFillCheckCircle size={20} color={'#fff'} />  Foam Brush</li>
+                                    <li> <AiFillCheckCircle size={20} color={'#fff'} />  Eco Wash Soap</li>
+                                    <li> <AiFillCheckCircle size={20} color={'#fff'} />  Pre-Soak</li>
+                                    <li> <AiFillCheckCircle size={20} color={'#fff'} />  Tire Cleaner</li>
+                                    <li> <AiFillCheckCircle size={20} color={'#fff'} />  Engine Cleaner</li>
+                                   
+                                </ul>
                             </div>
                            
                         </div>
                     </div>
                     </div>
+                    
+
                     </div>
+
                     </div>
-                               
-         </form>
-                        </div>
-                    </div>
+                   
+                   
+                        <Footer/> 
+               
+                
                 </div>
-            </div>
-        </div>
-
-
-        </div>
-    
-        
-       
-            <Footer/> 
-   
-    </div>
-   
-  )
-}
-
-export default Prices
+            
+               
+              )
+            }
+            
+            export default Prices
+  

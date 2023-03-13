@@ -1,6 +1,7 @@
 import React from 'react'
 import  "../index.css"
-import exterior from "../assets/exterior.png"
+import aboutphoto from "../assets/aboutphoto.png"
+
 
 const About = () => {
   return (
@@ -10,7 +11,7 @@ const About = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-6">
                         <div className="about-img">
-                            <img src={exterior} height={600} alt="carwashphoto"/>
+                            <img src={aboutphoto} height={600} alt="carwashphoto"/>
                         </div>
                         
                     </div>
