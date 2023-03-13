@@ -3,11 +3,13 @@ import Menu from '../components/Menu';
 import pricewash from "../assets/pricewashing.png"
 import {AiFillCheckCircle} from "react-icons/ai"
 import "../index.css";
-import logo from "../assets/logo1.png"
 import  "../App.css"
-import {HiLocationMarker} from "react-icons/hi"
-import {AiFillPhone} from 'react-icons/ai'
-import {BsFillEnvelopeFill} from 'react-icons/bs'
+import Footer from '../components/Footer';
+
+
+
+
+
 
 const Prices = () => {
   return (
@@ -36,7 +38,7 @@ const Prices = () => {
           
         <div className="price">
             <div className="container">
-                <div className="section-header text-center">
+                <div className="section-header sectionselfserve text-center">
                     <h2> Touch-Free Automatic Car Wash</h2>
                 </div>
                 <div className="row">
@@ -46,7 +48,7 @@ const Prices = () => {
                                 <h3>Deluxe</h3>
                                 <h2><span>$</span><strong>7</strong></h2>
                             </div>
-                            <div class="price-body text-white ">
+                            <div className="price-body text-white ">
                                 <ul>
                                     <li><AiFillCheckCircle size={20} color={'#E81C2E'}/> Double Pass Presoak</li>
                                     <li><AiFillCheckCircle size={20} color={'#E81C2E'}/> High Pressure Wash</li>
@@ -80,7 +82,7 @@ const Prices = () => {
                            
                         </div>
                     </div>
-
+                   
                     <div className="col-md-4">
                     <div className="price-item premium featured-item ">
                             <div className="price-header">
@@ -108,62 +110,124 @@ const Prices = () => {
                 </div>
             </div>
 
+            </div>
+ 
             <div className="container">
                 <div className="section-header text-center">
                     <h2>Self-Serve Bays</h2>
-                </div>
-                </div>
 
-        
-        <div>
+                  
+                </div> 
 
-           
 
-<div className="footer" style={{backgroundColor:'#202C45'}}>
+
+                <div className="location">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="section-header priceheader text-left">
+                            <h7>$2.50 for 4 minutes, $1.00 for 
+                                each additional 1 minute and 36 seconds
+          </h7>
+                        </div>
+                       
+                    </div>
+
+                    
+                    <div className="col-lg-5">
+                        <div className="location-form">
+                            <h3 className=''>Self-Serve Washing Options</h3>
+    <form>
+                            <div className="location">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-3 col-md-6">
-                        <div className="footer-contact">
-                            <h2>Get In Touch</h2>
-                            <p><HiLocationMarker size={25}/> 409 Main Street, Red Bluff, CA </p>
-                            <p><AiFillPhone size={25}/> 530 529-3002</p>
-                            <p><BsFillEnvelopeFill  size={23}/> wmarkfreeman@gmail.com</p>
+                    <div className="col-lg-11 ">
+                       
+                        <div className="row">
+                            <div className="col-md-6">
+                                <div className="location-item">
+                                <AiFillCheckCircle size={20} color={'#fff'} /> 
+                                    <div className="location-text">
+                                        <h3>Wax</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="location-item">
+                                <AiFillCheckCircle size={20} color={'#fff'} /> 
+                                    <div className="location-text">
+                                        <h3>Rinse</h3>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="location-item">
+                                <AiFillCheckCircle size={20} color={'#fff'} /> 
+                                    <div className="location-text">
+                                        <h3>Foam Brush</h3>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="location-item">
+                                <AiFillCheckCircle size={20} color={'#fff'} /> 
+                                    <div className="location-text">
+                                        <h3>Wash Soap</h3>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="location-item">
+                                <AiFillCheckCircle size={20} color={'#fff'} /> 
+                                    <div className="location-text">
+                                        <h3>Pre-Soak</h3>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="location-item">
+                                <AiFillCheckCircle size={20} color={'#fff'} /> 
+                                    <div className="location-text">
+                                        <h3>Tire Cleaner</h3>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="location-item">
+                                <AiFillCheckCircle size={20} color={'#fff'} /> 
+                                    <div className="location-text">
+                                        <h3>Engine Cleaner</h3>
+                                    </div>
+                                </div>
+                            </div>
                            
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6">
-                        <div className="footer-link">
-                            <h2>Popular Links</h2>
-                            <a href="/">About Us</a>
-                            <a href="/contact">Contact Us</a>
-                            <a href="/services">Our Service</a>
-                            <a href="/prices">Pricing</a>
+                    </div>
+                    </div>
+                    </div>
+                               
+         </form>
                         </div>
-                     </div>
-                   
-                    <div className="col-lg-3 col-md-6"> 
-                    <div className="logocontain"> 
-                       
-                       <a href="/">
-                               <img className='footerlogo' src={logo} alt="Logo"/> 
-                           </a>
-                      
-                   </div>
-                    
-    </div> 
-                    
-                     </div>
-                
-               
-            </div>
-            <div className="container copyright">
-                <p>&copy; <a href="/">Main Street Car Wash</a> All Right Reserved</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+
+
+        </div>
     
+        
+       
+            <Footer/> 
+   
     </div>
-    </div>
+   
   )
 }
 
