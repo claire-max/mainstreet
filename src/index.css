@@ -730,6 +730,10 @@ h7{
   color: #1c2a43;
   font-size: 25px;
   font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  
+  
 } 
 
 h8{
