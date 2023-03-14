@@ -112,8 +112,8 @@ const Prices = () => {
             <div className="container">
                 <div className="section-header sectionselfserve text-center">
                     <h2> Self-Serve Bays</h2>
-                    <div clasName="col-lg-7">
-                        <div class="section-header priceheader text-left">
+                    <div className="col-lg-7">
+                        <div className="section-header priceheader">
                             <h7>$2.50 for 4 minutes, $1.00 for 
                                 each additional</h7>
                                 <br/>

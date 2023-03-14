@@ -17,7 +17,7 @@ const Header = () => {
               <br/>
               <h3 className="slidelabel">Wash Your Way</h3>
              
-        <a class="btn btn-custom" href="/services">Explore More</a>
+        <a className="btn btn-custom" href="/services">Explore More</a>
            
           </div>
         </div>

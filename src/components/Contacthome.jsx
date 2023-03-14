@@ -70,7 +70,7 @@ const Contacthome = () => {
         <div className="col-md-7">
             <div className="contact-form">
                 <div id="success"></div>
-                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                <form name="sentMessage" id="contactForm" noValidate="noValidate">
                     <div className="control-group">
                         <input type="text" className="form-control" id="inputID"  placeholder="Name" required="required" data-validation-required-message="Please enter your name" />
                         <p className="help-block text-danger"></p>

@@ -693,6 +693,8 @@ a:focus {
   letter-spacing: 5px;
 }
 
+
+
 .price .price-header h2 span {
   font-size: 25px;
   line-height: 55px;
@@ -728,7 +730,7 @@ h7{
   color: #1c2a43;
   font-size: 25px;
   font-weight: 700;
-}
+} 
 
 h8{
   color: #1c2a43;

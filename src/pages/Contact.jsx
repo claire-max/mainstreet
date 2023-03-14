@@ -51,7 +51,7 @@ const Contact = () => {
                     <div className="col-md-7">
                         <div className="contact-form">
                             <div id="success"></div>
-                            <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <form name="sentMessage" id="contactForm" noValidate="noValidate">
                                 <div className="control-group">
                                     <input type="text" className="form-control" id="inputID" placeholder="Name" required="required" data-validation-required-message="Please enter your name" />
                                     <p className="help-block text-danger"></p>
@@ -75,7 +75,7 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="google-map-code">
-                    <iframe title="myframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.5334180128516!2d-122.23538198420765!3d40.174940979393874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80828397fe5b2f11%3A0x9b58e72255b224e2!2sMain%20Street%20Car%20Wash!5e0!3m2!1sen!2sus!4v1678235264482!5m2!1sen!2sus" width="600" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe title="myframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.5334180128516!2d-122.23538198420765!3d40.174940979393874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80828397fe5b2f11%3A0x9b58e72255b224e2!2sMain%20Street%20Car%20Wash!5e0!3m2!1sen!2sus!4v1678235264482!5m2!1sen!2sus" width="600" height="450" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
