@@ -599,6 +599,7 @@ a:focus {
   letter-spacing: 4px;
   text-transform: uppercase;
   color: #E81C2E;
+  text-shadow: 1px 1px #202C45;
 }
 
 .section-header p::after {
