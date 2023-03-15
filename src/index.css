@@ -336,25 +336,34 @@ margin:4rem;
 .contact {
   position: relative;
   width: 100%;
-  padding: 45px 0;
+  padding: 50px 0;
+  
+  
+  
 }
 
 .contact .contact-info {
   width: 100%;
   margin-bottom: 45px;
-  padding: 35px 30px 10px 30px;
+  /* padding: 35px 30px 10px 30px; */
   border-radius: 5px;
-
+  flex-wrap: wrap;
   background-color: #6c7b8e;
-  
-  
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-left: 5px;
+  padding-bottom: 2rem;
+  align-items: center;
+  justify-content: center;
 }
+
 
 .contact .contact-info h2 {
   color: #ffffff;
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 30px;
+  padding-left:30px;
 }
 
 .contact .contact-info-item {
@@ -363,6 +372,7 @@ margin:4rem;
   justify-content: flex-start;
   margin-bottom: 30px;
   flex-wrap: wrap;
+  padding-left: 2px;
 }
 
 .contact .contact-info-icon {
@@ -377,7 +387,7 @@ margin:4rem;
 }
 
 .contact .contact-info-text {
-  padding-left: 20px;
+  padding-left: 25px;
   
 }
 
@@ -394,6 +404,11 @@ margin:4rem;
   color: #ffffff;
   font-size: 16px;
   font-weight: 500;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .contact .contact-form {
@@ -732,7 +747,7 @@ h7{
   font-weight: 700;
   align-items: center;
   justify-content: center;
-  
+
   
 } 
 

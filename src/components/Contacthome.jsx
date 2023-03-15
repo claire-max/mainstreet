@@ -35,7 +35,7 @@ const Contacthome = () => {
         <h2>Contact us</h2>
     </div>
     <div className="row">
-        <div className="col-md-4">
+        <div className="col-md-5 contactcontainer">
             <div className="contact-info">
                 <h2>Quick Contact Info</h2>
                 <div className="contact-info-item">
