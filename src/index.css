@@ -414,11 +414,21 @@ margin:4rem;
 .contact .contact-form {
   position: relative;
   width: 100%;
-  margin-bottom: 45px;
-  
- 
+  margin-bottom: 45px; 
 }
 
+.AlertMessage{
+  align-items: center;
+  justify-content: center;
+   padding-top: 15px;
+   padding-bottom: 1px;
+  color:white;
+  background-color:#E81C2E;
+  text-align: center;
+  border-radius: 2rem;
+  margin-bottom: 1rem; 
+
+}
 
 .contact .contact-form input {
   padding: 15px;
