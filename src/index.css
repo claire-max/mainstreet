@@ -38,7 +38,9 @@
 
 .carwashcard{
 margin-bottom: 4rem;
-margin:4rem;
+margin:3rem;
+
+
  
 }
 
@@ -355,6 +357,7 @@ margin:4rem;
   padding-bottom: 2rem;
   align-items: center;
   justify-content: center;
+
 }
 
 
@@ -368,7 +371,7 @@ margin:4rem;
 
 .contact .contact-info-item {
   display: flex;
-  align-items: center;
+  align-items: center; 
   justify-content: flex-start;
   margin-bottom: 30px;
   flex-wrap: wrap;
@@ -387,7 +390,7 @@ margin:4rem;
 }
 
 .contact .contact-info-text {
-  padding-left: 25px;
+  padding-left: 12px;
   
 }
 
@@ -399,15 +402,15 @@ margin:4rem;
   letter-spacing: 1px;
 }
 
-.contact .contact-info-text p {
+ .contact-info-text p {
   margin: 0;
   color: #ffffff;
   font-size: 16px;
   font-weight: 500;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  
+
 
 }
 
@@ -810,6 +813,7 @@ h8{
   font-weight: 700;
   letter-spacing: 2px;
   color: #E81C2E;
+  text-shadow: 1px 1px #202C45;
   
 }
 
@@ -822,7 +826,7 @@ h8{
 
 .footer .footer-link a::before {
   position: relative;
-  content: "\f105";
+  /* content: "\f105"; */
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   margin-right: 10px;
@@ -852,6 +856,7 @@ h8{
   color: #E81C2E;
   font-weight: 700;
   letter-spacing: 1px;
+  text-shadow: 1px 1px #202C45;
 }
 
 .footer .copyright p a:hover {

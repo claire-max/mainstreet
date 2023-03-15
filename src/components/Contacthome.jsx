@@ -69,7 +69,7 @@ const Contacthome = () => {
                     </div>
                     <div className="contact-info-text">
                         <h3>Hours of Operation</h3>
-                        <p> 24 hours </p>
+                        <p>Mon-Sun, 24 hours</p>
                     </div>
                 </div>
                 <div className="contact-info-item">
@@ -87,7 +87,7 @@ const Contacthome = () => {
                     </div>
                     <div className="contact-info-text">
                         <h3>Email Us</h3>
-                        <p>mainstreetcarwashrb@gmailcom</p>
+                        <p>mainstreetcarwashrb@gmail.com</p>
                     </div>
                 </div>
             </div>

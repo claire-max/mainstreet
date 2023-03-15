@@ -39,7 +39,7 @@ const Jumbotron = () => {
           <br/>
 
 
-    <Row className="g-4 cards">
+    <Row className="g-4 cards ">
           <Card className="text-light carwashcard me-3" style={{ backgroundColor:'#202C45',
         width:200, height:200}}>
             <br/>

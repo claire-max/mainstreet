@@ -17,7 +17,7 @@ const Footer = () => {
                             <h2>Get In Touch</h2>
                             <p><HiLocationMarker size={25}/> 409 Main Street, Red Bluff, CA </p>
                             <p><AiFillPhone size={25}/> 530 529-3002</p>
-                            <p><BsFillEnvelopeFill  size={23}/> wmarkfreeman@gmail.com</p>
+                            <p><BsFillEnvelopeFill  size={23}/> mainstreetcarwashrb@gmail.com</p>
                            
                         </div>
                     </div>
