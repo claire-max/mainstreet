@@ -52,7 +52,7 @@ const Menu = () => {
                                     </div>
                                     <div className="top-bar-text">
                                         <h3>Email Us</h3>
-                                        <p> wmarkfreeman@gmail.com</p>
+                                        <p> mainstreetcarwashrb@gmailcom</p>
                                     </div>
                                 </div>
                             </div>

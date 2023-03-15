@@ -62,7 +62,7 @@ const Contacthome = () => {
                     </div>
                     <div className="contact-info-text">
                         <h3>Email Us</h3>
-                        <p>info@example.com</p>
+                        <p>mainstreetcarwashrb@gmailcom</p>
                     </div>
                 </div>
             </div>
